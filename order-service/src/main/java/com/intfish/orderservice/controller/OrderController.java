@@ -1,6 +1,6 @@
 package com.intfish.orderservice.controller;
 
-import com.intfish.orderservice.service.UserService;
+import com.intfish.orderservice.feign.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
